@@ -1,7 +1,7 @@
 #!/usr/bin/php -n
 <?php
 
-$tupac_version='0.5.6.1';
+$tupac_version='0.5.6.2';
 $cache_version='1.2.2';
 ini_set('memory_limit','120M');
 $tupac_directory = dirname(__FILE__).'/../../../var/lib/tupac/';
