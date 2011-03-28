@@ -5,7 +5,7 @@ $tupac_version='0.5.6.2';
 $cache_version='1.2.2';
 ini_set('memory_limit','120M');
 $tupac_directory = dirname(__FILE__).'/../../../var/lib/tupac/';
-$include_path=dirname(__FILE__).'/';
+$include_path=dirname(__FILE__).'/../lib/tupac/';
 $pacman_directory='/var/lib/pacman/';
 
 include $include_path.'tupac.inc.php';
